@@ -38,7 +38,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
 
 body{
-        background: url('img/db98cc0f31c75a1a26b8fb14ef29777d.jpg') no-repeat;
+        background: url('db98cc0f31c75a1a26b8fb14ef29777d.jpg') no-repeat;
         background-attachment: fixed;
         background-size: cover;
 
@@ -54,7 +54,7 @@ nav{font-size: 4vw;
 
 h1{
         margin-top: 20px;
-        background: url("img/789b4e3d1c5cfb07f12539e2cf9e6af9.jpeg");
+        background: url("789b4e3d1c5cfb07f12539e2cf9e6af9.jpeg");
         font-size: 4vw;
         color:transparent;
         -webkit-background-clip: text;
