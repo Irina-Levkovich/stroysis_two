@@ -1,21 +1,45 @@
-{% extends 'base.html' %}
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=0,initial-scale=1.0,maximum-scale=1.0">
+    <meta name="author" content="ЧСУП Cтройсис">
+    <meta name="keywords" content="Строительная техника, аренда, погрузчик, экскаватор, здание, бетоносмеситель">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Type" content="text/html,charset=UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" >
+    <link href="/static/css/style.css" rel="stylesheet">
+    <title>Стройсис</title>
+</head>
+<body>
 
-{% block title%}
-Главная страница
-{% endblock %}
-
-{% block body%}
-       <img class="images-seven" src="static/css/img/IMG-269ee12c534430c1f64f7e63340a34ba-V.jpg" alt="FF">
-       <img class="images-eight" src="static/css/img/IMG-1eb3553f1f10869d4043e80bd2a6c25f-V.jpg" alt="FF">
-       <img class="images-ten" src="static/css/img/IMG-37ec426f9879145630af863325d03d4f-V.jpg" alt="FF">
-       <img class="images-eleven" src="static/css/img/IMG-bf55dce4b1295c51aebf85d53c9703d9-V.jpg" alt="FF">
-       <img class="images-nine" src="static/css/img/IMG-555d116352834d727255100093fc7cdd-V.jpg" alt="FF">
+    <header>
+      <div class="d-flex flex-column flex-md-row align-items-center pb-4 mb-5 border-bottom" style="background:linear-gradient(to left,#f9e242,#ffa520,#f9ce14);">
+           <div class="container">
+               <p class="arial" >МТС (8-029) 529-77-49</p>
+               <h2>
+                   <a href="https://e.mail.ru/inbox/" class="styles_navMenuLink__2qLfm">stroysis00@mail.ru</a>
+               </h2>
+            </div>
+           <nav class="d-inline-flex mt-1 mt-md-2 ms-md-auto" >
+            <a class="w-60 btn btn-lg btn-outline-primary" style="font-size: 20px" href="/">Главная</a>
+            <a class="w-60 btn btn-lg btn-outline-primary" style="font-size: 20px"  href="price">Стоимость услуг</a>
+           </nav>
+      </div>
+     </header>
+       <img class="images-seven" src="static/img/IMG-269ee12c534430c1f64f7e63340a34ba-V.jpg" alt="FF">
+       <img class="images-eight" src="static/img/IMG-1eb3553f1f10869d4043e80bd2a6c25f-V.jpg" alt="FF">
+       <img class="images-ten" src="static/img/IMG-37ec426f9879145630af863325d03d4f-V.jpg" alt="FF">
+       <img class="images-eleven" src="static/img/IMG-bf55dce4b1295c51aebf85d53c9703d9-V.jpg" alt="FF">
+       <img class="images-nine" src="static/img/IMG-555d116352834d727255100093fc7cdd-V.jpg" alt="FF">
       <div class="container" >
           <h1 class="card-title">Стоимость за 1 м.кв.
               <span>договорная</span></h1>
       </div>
  <br>
  <br>
+   <footer>
+        <p> УНП 290503541__Адрес: 225230, Брестская область, Берёзовский район, Первомайский с/с, 10 севернее д.Тихны</p>
+   </footer>
 
-
-{% endblock %}
+</body>
