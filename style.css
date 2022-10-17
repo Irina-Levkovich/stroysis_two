@@ -42,10 +42,11 @@ body{
         background-attachment: fixed;
         background-size: cover;
 
-        }
+}
 
 
-nav{font-size: 4vw;
+nav{
+    font-size: 4vw;
     font-family: "Brush Script MT", cursive;
     background:linear-gradient(to left,#f9e242,#ffa500,#f9ce14);
     text-align: right;
@@ -53,7 +54,7 @@ nav{font-size: 4vw;
 }
 
 h1{
-        margin-top: 20px;
+        margin-top: 10px;
         background: url("789b4e3d1c5cfb07f12539e2cf9e6af9.jpeg");
         font-size: 4vw;
         color:transparent;
@@ -75,6 +76,7 @@ h1{
                 background-position: 100% 100%;
         }
 }
+
 .arial{
         margin-top: 5px;
         font-size: 2vw;
@@ -140,6 +142,7 @@ footer{
     text-align:center;
     text-shadow: 1px 1px 1px white;
 }
+
 .colorgrey{
     font-size: 2vw;
     font-family: Verdana;
@@ -147,6 +150,7 @@ footer{
     font-weight: bold;
     text-indent: 80px;
     color: darkslategrey;
+    text-align:center;
     text-shadow: 2px 2px 2px white;
 
 }
@@ -163,8 +167,8 @@ footer{
     font-weight: initial;
     text-shadow: 1px 1px 1px #404040;
     text-decoration: underline;
-
 }
+
 .font{
     font-size: 3vw;
     font-family: Verdana;
@@ -173,11 +177,10 @@ footer{
     color: #404040;
     font-weight: initial;
     text-shadow: 2px 2px 2px white;
-
-
 }
+
 .text{
-    color: white;
+    color: blue;
     font-size: 25px;
     font-family: Verdana;
     font-style:italic;
@@ -186,9 +189,10 @@ footer{
 }
 
 @keyframes mymove{
-        50% {text-shadow: 10px 20px 30px blue;
+        50% {text-shadow: 10px 20px 30px powderblue;
   }
 }
+
 .alert{
     color: #404040;
     font-size: 140%;
@@ -196,8 +200,8 @@ footer{
     font-style:italic;
     font-weight: bold;
     text-align:center;
-
 }
+
 .black{
     color: #404040;
     font-size: 200%;
@@ -205,7 +209,6 @@ footer{
     font-style:italic;
     font-weight: bold;
     text-align:center;
-
 }
 
 .block_one{
@@ -215,6 +218,7 @@ footer{
     height: 800px;
     position: relative;
 }
+
 .example{
     width: 280px;
     height: 300px;
@@ -224,7 +228,7 @@ footer{
     border: 1px solid #404040;
     background-size: cover;
     position: initial;
-    }
+}
 
 .images{width: 520px;
     height: 480px;
@@ -234,7 +238,7 @@ footer{
     border-radius:100px 100px 100px 100px;
     box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
     background-size: contain;
-    }
+}
 
 .images:hover{
     transform: scale(100%) scale(130%);
@@ -249,11 +253,11 @@ footer{
     border: 2px solid snow;
     border-radius:100px 100px 100px 100px;
     box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
-    }
-.images-one:hover{
+ }.images-one:hover{
     transform: scale(100%) scale(130%);
     background: powderblue;
 }
+
 .images-two{width: 520px;
     height: 480px;
     margin: auto;
@@ -261,11 +265,13 @@ footer{
     border: 2px solid snow;
     border-radius:100px 100px 100px 100px;
     box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
-    }
+}
+
 .images-two:hover{
     transform: scale(100%) scale(130%);
     background: powderblue;
 }
+
 .images-three{width: 550px;
     height: 550px;
     margin:5px;
@@ -273,11 +279,13 @@ footer{
     border: 2px solid snow;
     border-radius:100px 100px 100px 100px;
     box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
-    }
+}
+
 .images-three:hover{
     transform: scale(100%) scale(130%);
     background: powderblue;
 }
+
 .images-four{width: 550px;
     height: 550px;
     margin:5px;
@@ -285,11 +293,12 @@ footer{
     border: 2px solid snow;
     border-radius:100px 100px 100px 100px;
     box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
-    }
+ }
 .images-four:hover{
     transform: scale(100%) scale(130%);
     background: powderblue;
 }
+
 .images-five{width: 550px;
     height: 550px;
     margin:5px;
@@ -297,11 +306,13 @@ footer{
     border: 2px solid snow;
     border-radius:100px 100px 100px 100px;
     box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
-    }
+}
+
 .images-five:hover{
     transform: scale(100%) scale(130%);
     background: powderblue;
 }
+
 .images-six{width: 550px;
     height: 550px;
     margin:5px;
@@ -309,11 +320,13 @@ footer{
     border: 2px solid snow;
     border-radius:100px 100px 100px 100px;
     box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
-    }
+}
+
 .images-six:hover{
     transform: scale(100%) scale(130%);
     background: powderblue;
 }
+
 .images-seven{width: 490px;
     height: 450px;
     margin:5px;
@@ -321,11 +334,13 @@ footer{
     border: 2px solid snow;
     border-radius:100px 100px 100px 100px;
     box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
-    }
+ }
+
 .images-seven:hover{
     transform: scale(100%) scale(130%);
     background: powderblue;
 }
+
 .images-eight{width: 490px;
     height: 450px;
     margin:5px;
@@ -333,11 +348,13 @@ footer{
     border: 2px solid snow;
     border-radius:100px 100px 100px 100px;
     box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
-    }
+}
+
 .images-eight:hover{
     transform: scale(100%) scale(130%);
     background: powderblue;
 }
+
 .images-nine{width: 490px;
     height: 450px;
     margin:5px;
@@ -345,11 +362,13 @@ footer{
     border: 2px solid snow;
     border-radius:100px 100px 100px 100px;
     box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
-    }
+}
+
 .images-nine:hover{
     transform: scale(100%) scale(130%);
     background: powderblue;
 }
+
 .images-ten{width: 490px;
     height: 450px;
     margin:5px;
