@@ -1,0 +1,87 @@
+{% extends 'base.html' %}
+
+{% block title%}
+Главная страница
+{% endblock %}
+
+{% block body%}
+      <h1>ЧСУП "СТРОЙСИС"</h1>
+      <h3 class="colorgrey">СТРОИТЕЛЬНАЯ ТЕХНИКА И ПРОИЗВОДСТВЕННЫЕ ЗДАНИЯ В АРЕНДУ</h3>
+      <h3 class="font">Наши услуги</h3>
+      <h3  class="color"> Мы заботимся о каждом покупателе наших услуг! </h3>
+
+<div class="container">
+  <div class="row row-cols-1 row-cols-md-4 mb-4 text-center">
+    <div class="col">
+      <div class="card mb-4 rounded-3 shadow-sm border-primary" >
+         <div class="blue">
+             <br>
+             <h4 class="text">1 час работы</h4>
+             <br>
+         </div>
+      <div class="card-body">
+         <div class="box">
+             <img class="example" src="static/css/img/IMG-5f14ed2884e23e153664c5533d111be3-V.jpg" alt="">
+         </div>
+         <h4 class="alert">Погрузчик JCB 532-120</h4>
+         <button onclick="document.location='/jcb'"  class="w-100 btn btn-lg btn-primary" style="background:linear-gradient(to left,#49cec2,#004bff,#49cec2)" > <h4 class="text">Подробнее</h4></button>
+      </div>
+      </div>
+    </div>
+           <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                <div class="blue">
+                 <br>
+                 <h4 class="text">1 час работы</h4>
+                 <br>
+              </div>
+              <div class="card-body">
+                 <div class="box">
+                    <img class="example" src="static/css/img/IMG-23f49c442c8414d538747995169d8bf7-V.jpg" alt="Ошибка" >
+                 </div>
+                <h4 class="alert">Мини-экскаватор Hitachi EX-40</h4>
+             <button onclick="document.location='/exkavator'" class="w-100 btn btn-lg btn-primary" style="background:linear-gradient(to left,#49cec2,#004bff,#49cec2)"><h4 class="text">Подробнее</h4></button>
+            </div>
+           </div>
+           </div>
+            <div class="col">
+               <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                  <div class="blue">
+                    <br>
+                     <h4 class="text">1 м.куб.</h4>
+                    <br>
+                  </div>
+               <div class="card-body">
+                  <div class="box">
+                      <br>
+                     <img class="example" src="static/css/img/IMG-33a0d0abc7e317103a1fab4ff4e4700a-V.jpg" alt="Ошибка" >
+                      <br>
+                  </div>
+                   <h4 class="alert">Бетоносмеситель</h4>
+                  <button onclick="document.location='/beton'" class="w-100 btn btn-lg btn-primary" style="background:linear-gradient(to left,#49cec2,#004bff,#49cec2)"><h4 class="text">Подробнее</h4></button>
+               </div>
+               </div>
+            </div>
+             <div class="col">
+               <div class="card mb-4 rounded-3 shadow-sm border-primary" >
+                  <div class="blue">
+                    <br>
+                     <h4 class="text" >1 м.кв.</h4>
+                    <br>
+                  </div>
+               <div class="card-body">
+                  <div class="box">
+                    <img class="example" src="static/css/img/IMG-1eb3553f1f10869d4043e80bd2a6c25f-V.jpg" alt="FF" >
+                  </div>
+                  <h4 class="alert">Производственное здание</h4>
+                  <button onclick="document.location='/house'" class="w-100 btn btn-lg btn-primary" style="background:linear-gradient(to left,#49cec2,#004bff,#49cec2)"><h4 class="text">Подробнее</h4></button>
+               </div>
+               </div>
+            </div>
+        </div>
+</div>
+
+
+
+
+{% endblock %}
