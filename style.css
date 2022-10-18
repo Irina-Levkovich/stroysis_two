@@ -308,7 +308,7 @@ footer{
     border-radius:100px 100px 100px 100px;
     box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
  }
-.images-four:hover{
+.images-zero:hover{
     transform: scale(100%) scale(130%);
     background: powderblue;
 }
