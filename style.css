@@ -288,8 +288,8 @@ footer{
     background: powderblue;
 }
 
-.images-four{width: 520px;
-    height: 480px;
+.images-four{width: 550px;
+    height: 550px;
     margin:5px;
     padding: 10px 10px 10px;
     border: 2px solid snow;
@@ -300,7 +300,7 @@ footer{
     transform: scale(100%) scale(130%);
     background: powderblue;
 }
-.images-zero{width: 5200px;
+.images-zero{width: 520px;
     height: 480px;
     margin:5px;
     padding: 10px 10px 10px;
@@ -327,8 +327,8 @@ footer{
     background: powderblue;
 }
 
-.images-six{width: 550px;
-    height: 550px;
+.images-six{width: 520px;
+    height: 480px;
     margin:5px;
     padding: 10px 10px 10px;
     border: 2px solid snow;
