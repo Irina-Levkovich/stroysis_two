@@ -180,7 +180,7 @@ footer{
 }
 
 .text{
-    color: blue;
+    color: white;
     font-size: 25px;
     font-family: Verdana;
     font-style:italic;
@@ -384,10 +384,10 @@ footer{
 .images-eleven{width: 490px;
     height: 450px;
     margin:5px;
-    padding: 10px 10px 10px;
-    border: 2px solid snow;
+    padding: 10px 10px 10px;border: 2px solid snow;
     border-radius:100px 100px 100px 100px;
     box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
+       
     }
 .images-eleven:hover{
     transform: scale(100%) scale(130%);
@@ -397,6 +397,9 @@ footer{
     height: 420px;
     margin:5px;
     padding: 10px 10px 10px;
+    border: 2px solid snow;
+    border-radius:100px 100px 100px 100px;
+    box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
     }
 .images-twelve:hover{
     transform: scale(100%) scale(130%);
@@ -406,6 +409,9 @@ footer{
     height: 420px;
     margin:5px;
     padding: 10px 10px 10px;
+    border: 2px solid snow;
+    border-radius:100px 100px 100px 100px;
+    box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
     }
 .images-thirteen:hover{
     transform: scale(100%) scale(130%);
@@ -415,6 +421,9 @@ footer{
     height: 420px;
     margin:5px;
     padding: 10px 10px 10px;
+    border: 2px solid snow;
+    border-radius:100px 100px 100px 100px;
+    box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
     }
 .images-fourteen:hover{
     transform: scale(100%) scale(130%);
@@ -424,6 +433,9 @@ footer{
     height: 420px;
     margin:5px;
     padding: 10px 10px 10px;
+    border: 2px solid snow;
+    border-radius:100px 100px 100px 100px;
+    box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
     }
 .images-fiveteen:hover {
     transform: scale(100%) scale(130%);
