@@ -253,7 +253,9 @@ footer{
     border: 2px solid snow;
     border-radius:70px 70px 70px 70px;
     box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
- }.images-one:hover{
+ }
+
+.images-one:hover{
     transform: scale(100%) scale(130%);
     background: powderblue;
 }
@@ -286,8 +288,20 @@ footer{
     background: powderblue;
 }
 
-.images-four{width: 550px;
-    height: 550px;
+.images-four{width: 520px;
+    height: 480px;
+    margin:5px;
+    padding: 10px 10px 10px;
+    border: 2px solid snow;
+    border-radius:100px 100px 100px 100px;
+    box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
+ }
+.images-four:hover{
+    transform: scale(100%) scale(130%);
+    background: powderblue;
+}
+.images-zero{width: 5200px;
+    height: 480px;
     margin:5px;
     padding: 10px 10px 10px;
     border: 2px solid snow;
@@ -299,8 +313,8 @@ footer{
     background: powderblue;
 }
 
-.images-five{width: 550px;
-    height: 550px;
+.images-five{width: 520px;
+    height: 480px;
     margin:5px;
     padding: 10px 10px 10px;
     border: 2px solid snow;
