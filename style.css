@@ -251,7 +251,7 @@ footer{
     min-width:320px ;
     padding: 10px 10px 10px;
     border: 2px solid snow;
-    border-radius:100px 100px 100px 100px;
+    border-radius:70px 70px 70px 70px;
     box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
  }.images-one:hover{
     transform: scale(100%) scale(130%);
@@ -263,7 +263,7 @@ footer{
     margin: auto;
     padding: 10px 10px 10px;
     border: 2px solid snow;
-    border-radius:100px 100px 100px 100px;
+    border-radius:70px 70px 70px 70px;
     box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
 }
 
@@ -422,7 +422,7 @@ footer{
     margin:5px;
     padding: 10px 10px 10px;
     border: 2px solid snow;
-    border-radius:100px 100px 100px 100px;
+    border-radius:70px 70px 70px 70px;
     box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
     }
 .images-fourteen:hover{
@@ -434,7 +434,7 @@ footer{
     margin:5px;
     padding: 10px 10px 10px;
     border: 2px solid snow;
-    border-radius:100px 100px 100px 100px;
+    border-radius:70px 70px 70px 70px;
     box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
     }
 .images-fiveteen:hover {
