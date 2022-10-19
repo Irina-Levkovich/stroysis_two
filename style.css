@@ -46,7 +46,7 @@ body{
 
 
 nav{
-    font-size: 4vw;
+    font-size: 15%;
     font-family: "Brush Script MT", cursive;
     background:linear-gradient(to left,#f9e242,#ffa500,#f9ce14);
     text-align: right;
@@ -54,15 +54,15 @@ nav{
 }
 
 h1{
-        margin-top: 2px;
+        margin-top: 0px;
         background: url("789b4e3d1c5cfb07f12539e2cf9e6af9.jpeg");
-        font-size: 4vw;
+        font-size: 8vw;
         color:transparent;
         -webkit-background-clip: text;
         font-family: "Brush Script MT", cursive;
         font-weight: bold;
         font-style:oblique;
-        text-shadow: 2px 2px;
+        text-shadow: 4px 4px;
         text-indent: 80px;
         animation: animate 5s infinite ease-in-out;
 
@@ -78,13 +78,13 @@ h1{
 }
 
 .arial{
-        margin-top: 5px;
-        font-size: 2vw;
+        margin-top: 4px;
+        font-size: 4vw;
         color: #404040;
         font-family: Verdana;
         font-weight: bold;
         font-style: italic;
-        text-shadow: 2px 2px 2px white;
+        text-shadow: 3px 3px 3px white;
         left:15%;
         height: 2%;
         top: 4%;
@@ -96,38 +96,38 @@ h1{
                 transform: scale(100%);
         }
         to {
-                transform: scale(105%);
+                transform: scale(170%);
         }
 }
 
 h2{
         margin-top: 2px;
-        font-size: 2vw;
+        font-size: 4vw;
         color:blue;
         font-family: Verdana;
         font-weight: bold;
         font-style:italic;
-        text-shadow: 1px 1px 1px white;
+        text-shadow: 2px 2px 2px white;
 
 }
 
 .card-title{
         margin: auto;
-        font-size: 3vw;
+        font-size: 6vw;
         color: #404040;
         font-family: Verdana;
         font-weight: bold;
         font-style:italic;
         font-weight: bold;
         text-align:center;
-        padding: 2px 2px 4px;
-        text-shadow: 1px 1px 1px white;
+        padding: 4px 4px 6px;
+        text-shadow: 2px 2px 2px white;
         text-decoration: underline
         }
 span{
-    font-size: 3vw;
+    font-size: 6vw;
     color: blue;
-    text-shadow: 3px 2px 2px white;
+    text-shadow: 5px 4px 4px white;
     text-decoration: underline
 
 }
@@ -135,23 +135,23 @@ span{
 footer{
     color: aliceblue;
     position: absolute;
-    font-size: 2vw;
+    font-size: 4vw;
     font-family: Verdana;
     font-style:italic;
     font-weight: bold;
     text-align:center;
-    text-shadow: 1px 1px 1px white;
+    text-shadow: 2px 2px 2px white;
 }
 
 .colorgrey{
-    font-size: 2vw;
+    font-size: 4vw;
     font-family: Verdana;
     font-style:italic;
     font-weight: bold;
     text-indent: 80px;
-    color: darkslategrey;
+    color: grey;
     text-align:center;
-    text-shadow: 2px 2px 2px white;
+    text-shadow: 4px 4px 4px white;
 
 }
 
@@ -159,24 +159,24 @@ footer{
     background:linear-gradient(to left,#49cec2,#004bff,#49cec2) ;
 }
 .color{
-    font-size: 2vw;
+    font-size: 4vw;
     font-family: Tahoma, sans-serif;
     font-style:italic;
     text-align:center;
     color: white;
     font-weight: initial;
-    text-shadow: 1px 1px 1px #404040;
+    text-shadow: 2px 2px 2px #404040;
     text-decoration: underline;
 }
 
 .font{
-    font-size: 3vw;
+    font-size: 6vw;
     font-family: Verdana;
     font-style:italic;
     text-align:center;
     color: #404040;
     font-weight: initial;
-    text-shadow: 2px 2px 2px white;
+    text-shadow: 4px 4px 4px white;
 }
 
 .text{
