@@ -46,6 +46,7 @@ body{
 
 
 nav{
+    margin-top: 10% 70% 10% 80%;
     font-size: 15%;
     font-family: "Brush Script MT", cursive;
     background:linear-gradient(to left,#f9e242,#ffa500,#f9ce14);
@@ -56,14 +57,17 @@ nav{
 h1{
         margin-top: 0px;
         background: url("789b4e3d1c5cfb07f12539e2cf9e6af9.jpeg");
-        font-size: 8vw;
+        font-size: 100%;
         color:transparent;
         -webkit-background-clip: text;
         font-family: "Brush Script MT", cursive;
         font-weight: bold;
         font-style:oblique;
-        text-shadow: 4px 4px;
-        text-indent: 80px;
+        left:45%;
+        height: 1%;
+        top: 50%;
+        text-shadow: 30% 30%;
+        text-indent: 80%;
         animation: animate 5s infinite ease-in-out;
 
 
@@ -79,12 +83,12 @@ h1{
 
 .arial{
         margin-top: 4px;
-        font-size: 4vw;
+        font-size: 180%;
         color: #404040;
         font-family: Verdana;
         font-weight: bold;
         font-style: italic;
-        text-shadow: 3px 3px 3px white;
+        text-shadow: 6% 6% 6% white;
         left:15%;
         height: 2%;
         top: 4%;
@@ -159,24 +163,24 @@ footer{
     background:linear-gradient(to left,#49cec2,#004bff,#49cec2) ;
 }
 .color{
-    font-size: 4vw;
+    font-size: 150%;
     font-family: Tahoma, sans-serif;
     font-style:italic;
     text-align:center;
     color: white;
     font-weight: initial;
-    text-shadow: 2px 2px 2px #404040;
+    text-shadow: 5% 5% 5% #404040;
     text-decoration: underline;
 }
 
 .font{
-    font-size: 6vw;
+    font-size: 150%;
     font-family: Verdana;
     font-style:italic;
     text-align:center;
     color: #404040;
     font-weight: initial;
-    text-shadow: 4px 4px 4px white;
+    text-shadow: 5% 5% 5% white;
 }
 
 .text{
@@ -274,13 +278,13 @@ footer{
     background: powderblue;
 }
 
-.images-three{width: 50%;
-    height: 40%;
-    margin:5px;
-    padding: 10px 10px 10px;
-    border: 2px solid snow;
-    border-radius:100px 100px 100px 100px;
-    box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
+.images-three{width: 100%;
+    height: 80%;
+    margin:5%;
+    padding: 10% 10% 10%;
+    border: 10% solid snow;
+    border-radius:10% 10% 10% 10%;
+    box-shadow: 10% 10% 30% #404040, inset 10% 10% 20% #404040;
 }
 
 .images-three:hover{
@@ -288,13 +292,13 @@ footer{
     background: powderblue;
 }
 
-.images-four{width:50%;
-    height: 40%;
-    margin:5px;
-    padding: 10px 10px 10px;
+.images-four{width:100%;
+    height: 80%;
+    margin:5%;
+    padding: 10% 10% 10%;
     border: 2px solid snow;
-    border-radius:100px 100px 100px 100px;
-    box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
+    border-radius:15 10% 10% 10%;
+    box-shadow: 10% 10% 30% #404040, inset 10% 10% 20% #404040;
  }
 .images-four:hover{
     transform: scale(100%) scale(170%);
