@@ -63,8 +63,6 @@ h1{
         font-family: "Brush Script MT", cursive;
         font-weight: bold;
         font-style:oblique;
-        left:5%;
-        height: 1%;
         text-shadow: 1vw 1vw;
         text-indent: 1vw;
         animation: animate 5s infinite ease-in-out;
