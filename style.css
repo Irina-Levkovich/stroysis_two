@@ -57,15 +57,15 @@ nav{
 h1{
         margin-top: 0px;
         background: url("789b4e3d1c5cfb07f12539e2cf9e6af9.jpeg");
-        font-size: 100%;
+        font-size: 0%;
         color:transparent;
         -webkit-background-clip: text;
         font-family: "Brush Script MT", cursive;
         font-weight: bold;
         font-style:oblique;
-        left:45%;
+        left:5%;
         height: 1%;
-        top: 50%;
+        top: 10%;
         text-shadow: 30% 30%;
         text-indent: 80%;
         animation: animate 5s infinite ease-in-out;
@@ -83,12 +83,12 @@ h1{
 
 .arial{
         margin-top: 4px;
-        font-size: 180%;
+        font-size: 100px;
         color: #404040;
         font-family: Verdana;
         font-weight: bold;
         font-style: italic;
-        text-shadow: 6% 6% 6% white;
+        text-shadow: 3px 3px 3px white;
         left:15%;
         height: 2%;
         top: 4%;
@@ -106,7 +106,7 @@ h1{
 
 h2{
         margin-top: 2px;
-        font-size: 4vw;
+        font-size: 100px;
         color:blue;
         font-family: Verdana;
         font-weight: bold;
@@ -117,19 +117,19 @@ h2{
 
 .card-title{
         margin: auto;
-        font-size: 6vw;
+        font-size: 5vw;
         color: #404040;
         font-family: Verdana;
         font-weight: bold;
         font-style:italic;
         font-weight: bold;
         text-align:center;
-        padding: 4px 4px 6px;
+        padding: 3px 3px 5px;
         text-shadow: 2px 2px 2px white;
         text-decoration: underline
         }
 span{
-    font-size: 6vw;
+    font-size: 5vw;
     color: blue;
     text-shadow: 5px 4px 4px white;
     text-decoration: underline
@@ -139,7 +139,7 @@ span{
 footer{
     color: aliceblue;
     position: absolute;
-    font-size: 4vw;
+    font-size: 3vw;
     font-family: Verdana;
     font-style:italic;
     font-weight: bold;
@@ -148,14 +148,14 @@ footer{
 }
 
 .colorgrey{
-    font-size: 4vw;
+    font-size: 3vw;
     font-family: Verdana;
     font-style:italic;
     font-weight: bold;
-    text-indent: 80px;
-    color: grey;
+    text-indent: 40px;
+    color: darkslategrey;
     text-align:center;
-    text-shadow: 4px 4px 4px white;
+    text-shadow: 3px 3px 3px white;
 
 }
 
@@ -163,13 +163,13 @@ footer{
     background:linear-gradient(to left,#49cec2,#004bff,#49cec2) ;
 }
 .color{
-    font-size: 150%;
+    font-size: 100px;
     font-family: Tahoma, sans-serif;
     font-style:italic;
     text-align:center;
     color: white;
     font-weight: initial;
-    text-shadow: 5% 5% 5% #404040;
+    text-shadow: 2vw 2vw 2vw #404040;
     text-decoration: underline;
 }
 
@@ -180,7 +180,7 @@ footer{
     text-align:center;
     color: #404040;
     font-weight: initial;
-    text-shadow: 5% 5% 5% white;
+    text-shadow: 2vw 2vw 2vw white;
 }
 
 .text{
@@ -251,12 +251,12 @@ footer{
 
 .images-one{width: 400px;
     height: 400px;
-    margin: auto;
-    min-width:320px ;
     padding: 10px 10px 10px;
+    margin: auto;
     border: 2px solid snow;
-    border-radius:70px 70px 70px 70px;
+    border-radius:100px 100px 100px 100px;
     box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
+    background-size: contain;
  }
 
 .images-one:hover{
@@ -266,11 +266,12 @@ footer{
 
 .images-two{width: 400px;
     height: 400px;
-    margin: auto;
     padding: 10px 10px 10px;
+    margin: auto;
     border: 2px solid snow;
-    border-radius:70px 70px 70px 70px;
+    border-radius:100px 100px 100px 100px;
     box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
+    background-size: contain;
 }
 
 .images-two:hover{
@@ -278,13 +279,14 @@ footer{
     background: powderblue;
 }
 
-.images-three{width: 100%;
-    height: 80%;
-    margin:5%;
-    padding: 10% 10% 10%;
-    border: 10% solid snow;
-    border-radius:10% 10% 10% 10%;
-    box-shadow: 10% 10% 30% #404040, inset 10% 10% 20% #404040;
+.images-three{width: 400px;
+    height: 400px;
+    padding: 10px 10px 10px;
+    margin: auto;
+    border: 2px solid snow;
+    border-radius:100px 100px 100px 100px;
+    box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
+    background-size: contain;
 }
 
 .images-three:hover{
@@ -292,38 +294,41 @@ footer{
     background: powderblue;
 }
 
-.images-four{width:100%;
-    height: 80%;
-    margin:5%;
-    padding: 10% 10% 10%;
+.images-four{width: 400px;
+    height: 400px;
+    padding: 10px 10px 10px;
+    margin: auto;
     border: 2px solid snow;
-    border-radius:15 10% 10% 10%;
-    box-shadow: 10% 10% 30% #404040, inset 10% 10% 20% #404040;
+    border-radius:100px 100px 100px 100px;
+    box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
+    background-size: contain;
  }
 .images-four:hover{
     transform: scale(100%) scale(170%);
     background: powderblue;
 }
-.images-zero{width: 520px;
-    height: 480px;
-    margin:5px;
+.images-zero{width: 400px;
+    height: 400px;
     padding: 10px 10px 10px;
+    margin: auto;
     border: 2px solid snow;
     border-radius:100px 100px 100px 100px;
     box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
+    background-size: contain;
  }
 .images-zero:hover{
     transform: scale(100%) scale(130%);
     background: powderblue;
 }
 
-.images-five{width: 520px;
-    height: 480px;
-    margin:5px;
+.images-five{width: 400px;
+    height: 400px;
     padding: 10px 10px 10px;
+    margin: auto;
     border: 2px solid snow;
     border-radius:100px 100px 100px 100px;
     box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
+    background-size: contain;
 }
 
 .images-five:hover{
@@ -331,13 +336,14 @@ footer{
     background: powderblue;
 }
 
-.images-six{width: 520px;
-    height: 480px;
-    margin:5px;
+.images-six{width: 400px;
+    height: 400px;
     padding: 10px 10px 10px;
+    margin: auto;
     border: 2px solid snow;
     border-radius:100px 100px 100px 100px;
     box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
+    background-size: contain;
 }
 
 .images-six:hover{
@@ -345,13 +351,14 @@ footer{
     background: powderblue;
 }
 
-.images-seven{width: 490px;
-    height: 450px;
-    margin:5px;
+.images-seven{width: 370px;
+    height: 370px;
     padding: 10px 10px 10px;
+    margin: auto;
     border: 2px solid snow;
     border-radius:100px 100px 100px 100px;
     box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
+    background-size: contain;
  }
 
 .images-seven:hover{
@@ -359,13 +366,14 @@ footer{
     background: powderblue;
 }
 
-.images-eight{width: 490px;
-    height: 450px;
-    margin:5px;
+.images-eightwidth: 370px;
+    height: 370px;
     padding: 10px 10px 10px;
+    margin: auto;
     border: 2px solid snow;
     border-radius:100px 100px 100px 100px;
     box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
+    background-size: contain;
 }
 
 .images-eight:hover{
@@ -373,89 +381,44 @@ footer{
     background: powderblue;
 }
 
-.images-nine{width: 490px;
-    height: 450px;
-    margin:5px;
+.images-nine{width: 370px;
+    height: 370px;
     padding: 10px 10px 10px;
+    margin: auto;
     border: 2px solid snow;
     border-radius:100px 100px 100px 100px;
     box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
-}
+    background-size: contain;
 
 .images-nine:hover{
     transform: scale(100%) scale(130%);
     background: powderblue;
 }
 
-.images-ten{width: 490px;
-    height: 450px;
-    margin:5px;
+.images-ten{width: 370px;
+    height: 370px;
     padding: 10px 10px 10px;
+    margin: auto;
     border: 2px solid snow;
     border-radius:100px 100px 100px 100px;
     box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
+    background-size: contain;
     }
 .images-ten:hover{
     transform: scale(100%) scale(130%);
     background: powderblue;
 }
-.images-eleven{width: 490px;
-    height: 450px;
-    margin:5px;
-    padding: 10px 10px 10px;border: 2px solid snow;
+.images-eleven{width: 370px;
+    height: 370px;
+    padding: 10px 10px 10px;
+    margin: auto;
+    border: 2px solid snow;
     border-radius:100px 100px 100px 100px;
     box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
+    background-size: contain;
        
     }
 .images-eleven:hover{
-    transform: scale(100%) scale(130%);
-    background: powderblue;
-}
-.images-twelve{width: 380px;
-    height: 420px;
-    margin:5px;
-    padding: 10px 10px 10px;
-    border: 2px solid snow;
-    border-radius:100px 100px 100px 100px;
-    box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
-    }
-.images-twelve:hover{
-    transform: scale(100%) scale(130%);
-    background: powderblue;
-}
-.images-thirteen{width: 380px;
-    height: 420px;
-    margin:5px;
-    padding: 10px 10px 10px;
-    border: 2px solid snow;
-    border-radius:100px 100px 100px 100px;
-    box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
-    }
-.images-thirteen:hover{
-    transform: scale(100%) scale(130%);
-    background: powderblue;
-}
-.images-fourteen{width: 380px;
-    height: 420px;
-    margin:5px;
-    padding: 10px 10px 10px;
-    border: 2px solid snow;
-    border-radius:70px 70px 70px 70px;
-    box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
-    }
-.images-fourteen:hover{
-    transform: scale(100%) scale(130%);
-    background: powderblue;
-}
-.images-fiveteen{width: 380px;
-    height: 420px;
-    margin:5px;
-    padding: 10px 10px 10px;
-    border: 2px solid snow;
-    border-radius:70px 70px 70px 70px;
-    box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
-    }
-.images-fiveteen:hover {
     transform: scale(100%) scale(130%);
     background: powderblue;
 }
