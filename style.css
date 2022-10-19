@@ -230,8 +230,8 @@ footer{
     position: initial;
 }
 
-.images{width: 520px;
-    height: 480px;
+.images{width: 400px;
+    height: 400px;
     padding: 10px 10px 10px;
     margin: auto;
     border: 2px solid snow;
@@ -241,12 +241,12 @@ footer{
 }
 
 .images:hover{
-    transform: scale(100%) scale(130%);
+    transform: scale(100%) scale(170%);
     background: powderblue;
 }
 
-.images-one{width: 520px;
-    height: 480px;
+.images-one{width: 400px;
+    height: 400px;
     margin: auto;
     min-width:320px ;
     padding: 10px 10px 10px;
@@ -256,12 +256,12 @@ footer{
  }
 
 .images-one:hover{
-    transform: scale(100%) scale(130%);
+    transform: scale(100%) scale(170%);
     background: powderblue;
 }
 
-.images-two{width: 520px;
-    height: 480px;
+.images-two{width: 400px;
+    height: 400px;
     margin: auto;
     padding: 10px 10px 10px;
     border: 2px solid snow;
@@ -270,12 +270,12 @@ footer{
 }
 
 .images-two:hover{
-    transform: scale(100%) scale(130%);
+    transform: scale(100%) scale(170%);
     background: powderblue;
 }
 
-.images-three{width: 550px;
-    height: 550px;
+.images-three{width: 50%;
+    height: 40%;
     margin:5px;
     padding: 10px 10px 10px;
     border: 2px solid snow;
@@ -284,12 +284,12 @@ footer{
 }
 
 .images-three:hover{
-    transform: scale(100%) scale(130%);
+    transform: scale(100%) scale(170%);
     background: powderblue;
 }
 
-.images-four{width: 550px;
-    height: 550px;
+.images-four{width:50%;
+    height: 40%;
     margin:5px;
     padding: 10px 10px 10px;
     border: 2px solid snow;
@@ -297,7 +297,7 @@ footer{
     box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
  }
 .images-four:hover{
-    transform: scale(100%) scale(130%);
+    transform: scale(100%) scale(170%);
     background: powderblue;
 }
 .images-zero{width: 520px;
