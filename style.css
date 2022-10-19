@@ -55,7 +55,7 @@ nav{
 }
 
 h1{
-        margin-top: 0px;
+        margin-top: 5px;
         background: url("789b4e3d1c5cfb07f12539e2cf9e6af9.jpeg");
         font-size: 4vw;
         color:transparent;
@@ -65,7 +65,6 @@ h1{
         font-style:oblique;
         left:5%;
         height: 1%;
-        top: 10%;
         text-shadow: 1vw 1vw;
         text-indent: 1vw;
         animation: animate 5s infinite ease-in-out;
@@ -144,7 +143,7 @@ footer{
     font-style:italic;
     font-weight: bold;
     text-align:center;
-    text-shadow: 2px 2px 2px white;
+    text-shadow: 1px 1px 1px white;
 }
 
 .colorgrey{
@@ -155,7 +154,7 @@ footer{
     text-indent: 40px;
     color: darkslategrey;
     text-align:center;
-    text-shadow: 3px 3px 3px white;
+    text-shadow: 2px 2px 2px white;
 
 }
 
@@ -366,7 +365,7 @@ footer{
     background: powderblue;
 }
 
-.images-eightwidth: 370px;
+.images-eight{width: 370px;
     height: 370px;
     padding: 10px 10px 10px;
     margin: auto;
@@ -389,6 +388,8 @@ footer{
     border-radius:100px 100px 100px 100px;
     box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
     background-size: contain;
+}
+    
 
 .images-nine:hover{
     transform: scale(100%) scale(130%);
@@ -403,7 +404,7 @@ footer{
     border-radius:100px 100px 100px 100px;
     box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
     background-size: contain;
-    }
+}
 .images-ten:hover{
     transform: scale(100%) scale(130%);
     background: powderblue;
@@ -416,8 +417,8 @@ footer{
     border-radius:100px 100px 100px 100px;
     box-shadow: 5px 5px 20px #404040, inset 5px 5px 10px #404040;
     background-size: contain;
-       
-    }
+      
+}
 .images-eleven:hover{
     transform: scale(100%) scale(130%);
     background: powderblue;
